@@ -1,5 +1,14 @@
 
 # 📝 Publications 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/Text2NKG.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Text2NKG: Fine-Grained N-ary Relation Extraction for N-ary relational Knowledge Graph Construction](https://arxiv.org/abs/2310.05185) \\
+**Haoran Luo**, Haihong E, Yuhao Yang, Tianyu Yao, Yikai Guo, Zichen Tang, Wentai Zhang, Shiyao Peng, Kaiyang Wan, Meina Song, Wei Lin, Yifan Zhu, Luu Anh Tuan\\
+\[[paper](https://arxiv.org/pdf/2310.05185)\]\[[code](https://github.com/LHRLAB/Text2NKG)\]
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2024</div><img src='images/ChatKBQA.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
