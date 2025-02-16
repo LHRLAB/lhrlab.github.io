@@ -3,9 +3,9 @@
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/Text2NKG.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Text2NKG: Fine-Grained N-ary Relation Extraction for N-ary relational Knowledge Graph Construction](https://arxiv.org/abs/2310.05185) \\
+[Text2NKG: Fine-Grained N-ary Relation Extraction for N-ary relational Knowledge Graph Construction](https://proceedings.neurips.cc/paper_files/paper/2024/hash/305b2288122d46bf0641bdd86c9a7921-Abstract-Conference.html) \\
 **Haoran Luo**, Haihong E, Yuhao Yang, Tianyu Yao, Yikai Guo, Zichen Tang, Wentai Zhang, Shiyao Peng, Kaiyang Wan, Meina Song, Wei Lin, Yifan Zhu, Luu Anh Tuan\\
-\[[paper](https://arxiv.org/pdf/2310.05185)\]\[[code](https://github.com/LHRLAB/Text2NKG)\]
+\[[paper](https://proceedings.neurips.cc/paper_files/paper/2024/file/305b2288122d46bf0641bdd86c9a7921-Paper-Conference.pdf)\]\[[code](https://github.com/LHRLAB/Text2NKG)\]
 </div>
 </div>
 
