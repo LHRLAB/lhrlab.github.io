@@ -1,5 +1,14 @@
 
 # 📝 Publications 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><img src='images/KBQA-o1.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[KBQA-o1: Agentic Knowledge Base Question Answering with Monte Carlo Tree Search](https://arxiv.org/abs/2501.18922) \\
+**Haoran Luo**, Haihong E, Yikai Guo, Qika Lin, Xiaobao Wu, Xinyu Mu, Wenhao Liu, Meina Song, Yifan Zhu, Luu Anh Tuan\\
+\[[paper](https://arxiv.org/pdf/2501.18922)\]\[[code](https://github.com/LHRLAB/KBQA-o1)\]
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/Text2NKG.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
