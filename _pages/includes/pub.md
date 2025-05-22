@@ -1,6 +1,6 @@
 
 # 📝 Publications 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><img src='images/KBQA-o1.png' alt="sym" width="50%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><img src='images/KBQA-o1.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [KBQA-o1: Agentic Knowledge Base Question Answering with Monte Carlo Tree Search](https://arxiv.org/abs/2501.18922) \\
@@ -9,7 +9,7 @@
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/Text2NKG.png' alt="sym" width="50%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/Text2NKG.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Text2NKG: Fine-Grained N-ary Relation Extraction for N-ary relational Knowledge Graph Construction](https://proceedings.neurips.cc/paper_files/paper/2024/hash/305b2288122d46bf0641bdd86c9a7921-Abstract-Conference.html) \\
@@ -18,7 +18,7 @@
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2024</div><img src='images/ChatKBQA.png' alt="sym" width="50%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2024</div><img src='images/ChatKBQA.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [ChatKBQA: A Generate-then-Retrieve Framework for Knowledge Base Question Answering with Fine-tuned Large Language Models](https://aclanthology.org/2024.findings-acl.122/) \\
@@ -27,7 +27,7 @@
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2023</div><img src='images/HAHE.png' alt="sym" width="50%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2023</div><img src='images/HAHE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [HAHE: Hierarchical Attention for Hyper-Relational Knowledge Graphs in Global and Local Level](https://aclanthology.org/2023.acl-long.450/) \\
@@ -36,7 +36,7 @@
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2023</div><img src='images/NQE.png' alt="sym" width="50%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2023</div><img src='images/NQE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [NQE: N-ary Query Embedding for Complex Query Answering over Hyper-Relational Knowledge Graphs](https://ojs.aaai.org/index.php/AAAI/article/view/25576) \\
@@ -45,7 +45,7 @@
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2023</div><img src='images/DHGE.png' alt="sym" width="50%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2023</div><img src='images/DHGE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [DHGE: Dual-View Hyper-Relational Knowledge Graph Embedding for Link Prediction and Entity Typing](https://ojs.aaai.org/index.php/AAAI/article/view/25795) \\
