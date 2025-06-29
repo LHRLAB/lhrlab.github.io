@@ -58,18 +58,18 @@
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  const items = document.querySelectorAll(".question");
+  const items = document.querySelectorAll(".index");
   items.forEach((el, index) => {
     el.insertAdjacentHTML("afterbegin", `${index + 1}.`);
   });
 });
 </script>
 
-<p class="question">``ICLR 2021`` <a href="https://arxiv.org/abs/2006.04558">FastSpeech 2: Fast and High-Quality End-to-End Text to Speech</a>, <strong>Yi Ren</strong>, Chenxu Hu, Xu Tan, Tao Qin, Sheng Zhao, Zhou Zhao, Tie-Yan Liu</p>
+<p class="index">``ICLR 2021`` <a href="https://arxiv.org/abs/2006.04558">FastSpeech 2: Fast and High-Quality End-to-End Text to Speech</a>, <strong>Yi Ren</strong>, Chenxu Hu, Xu Tan, Tao Qin, Sheng Zhao, Zhou Zhao, Tie-Yan Liu</p>
 
-<p class="question">``NeurIPS 2019`` <a href="https://papers.nips.cc/paper/8580-fastspeech-fast-robust-and-controllable-text-to-speech.pdf">FastSpeech: Fast, Robust and Controllable Text to Speech</a>, <strong>Yi Ren</strong>, Yangjun Ruan, Xu Tan, Tao Qin, Sheng Zhao, Zhou Zhao, Tie-Yan Liu</p>
+<p class="index">``NeurIPS 2019`` <a href="https://papers.nips.cc/paper/8580-fastspeech-fast-robust-and-controllable-text-to-speech.pdf">FastSpeech: Fast, Robust and Controllable Text to Speech</a>, <strong>Yi Ren</strong>, Yangjun Ruan, Xu Tan, Tao Qin, Sheng Zhao, Zhou Zhao, Tie-Yan Liu</p>
 
-<p class="question">``NeurIPS 2021`` <a href="https://arxiv.org/abs/2109.15166">PortaSpeech: Portable and High-Quality Generative Text-to-Speech</a>, <strong>Yi Ren</strong>, Jinglin Liu, Zhou Zhao, <a href="https://portaspeech.github.io/"><strong>Project</strong></a> | <a href="https://github.com/NATSpeech/NATSpeech"><img src="https://img.shields.io/github/stars/NATSpeech/NATSpeech?style=social&label=Code+Stars" alt="GitHub Stars"></a> | <a href="https://huggingface.co/spaces/NATSpeech/PortaSpeech"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue?label=Demo" alt="HF Demo"></a></p>
+<p class="index">``NeurIPS 2021`` <a href="https://arxiv.org/abs/2109.15166">PortaSpeech: Portable and High-Quality Generative Text-to-Speech</a>, <strong>Yi Ren</strong>, Jinglin Liu, Zhou Zhao, <a href="https://portaspeech.github.io/"><strong>Project</strong></a> | <a href="https://github.com/NATSpeech/NATSpeech"><img src="https://img.shields.io/github/stars/NATSpeech/NATSpeech?style=social&label=Code+Stars" alt="GitHub Stars"></a> | <a href="https://huggingface.co/spaces/NATSpeech/PortaSpeech"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue?label=Demo" alt="HF Demo"></a></p>
 
 - ``NeurIPS 2021`` [PortaSpeech: Portable and High-Quality Generative Text-to-Speech](https://arxiv.org/abs/2109.15166), **Yi Ren**, Jinglin Liu, Zhou Zhao, [**Project**](https://portaspeech.github.io/) \| [![](https://img.shields.io/github/stars/NATSpeech/NATSpeech?style=social&label=Code+Stars)](https://github.com/NATSpeech/NATSpeech) \| [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue?label=Demo)](https://huggingface.co/spaces/NATSpeech/PortaSpeech)
 - ``AAAI 2022`` [DiffSinger: Singing Voice Synthesis via Shallow Diffusion Mechanism](https://arxiv.org/abs/2105.02446), Jinglin Liu, Chengxi Li, **Yi Ren**, Feiyang Chen, Zhou Zhao, [**Project**](https://diffsinger.github.io/) \| [![](https://img.shields.io/github/stars/NATSpeech/NATSpeech?style=social&label=DiffSpeech+Stars)](https://github.com/NATSpeech/NATSpeech) \| [![](https://img.shields.io/github/stars/MoonInTheRiver/DiffSinger?style=social&label=DiffSinger+Stars)](https://github.com/MoonInTheRiver/DiffSinger) \| [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-blue?label=Demo)](https://huggingface.co/spaces/NATSpeech/DiffSpeech)
