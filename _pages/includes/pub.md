@@ -79,4 +79,4 @@ document.addEventListener("DOMContentLoaded", function() {
 
 <p class="index"> <strong>Haoran Luo</strong>, Haihong E, Ling Tan, Gengxian Zhou, Tianyu Yao, Kaiyang Wan. <em>DHGE: Dual-View Hyper-Relational Knowledge Graph Embedding for Link Prediction and Entity Typing</em>. Proceedings of the AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2023. <a href="https://ojs.aaai.org/index.php/AAAI/article/view/25795">[paper]</a> <a href="https://github.com/LHRLAB/DHGE">[code]</a> </p>
 
-
+<p class="index"> <strong>Haoran Luo</strong>, Haihong E, Ling Tan, Gengxian Zhou, Tianyu Yao, Kaiyang Wan. <em>Clinical decision support system for hypertension medication based on knowledge graph</em>. <strong>Computer Methods and Programs in Biomedicine</strong>, 2022. <a href="https://www.sciencedirect.com/science/article/abs/pii/S0169260722006010">[paper]</a> </p>
