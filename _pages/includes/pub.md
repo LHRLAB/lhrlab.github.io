@@ -65,13 +65,15 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>
 
-
+<p class="index"> Kaiyang Wan, Honglin Mu, Rui Hao, <strong>Haoran Luo</strong>, Tianle Gu, Xiuying Chen. <em>A Cognitive Writing Perspective for Constrained Long-Form Text Generation</em>. Annual Meeting of the Association for Computational Linguistics (<strong>ACL</strong>), 2025. <a href="https://arxiv.org/abs/2502.12568">[preprint]</a> <a href="https://github.com/KaiyangWan/CogWriter">[code]</a> </p>
 
 <p class="index"> <strong>Haoran Luo</strong>, Haihong E, Yikai Guo, Qika Lin, Xiaobao Wu, Xinyu Mu, Wenhao Liu, Meina Song, Yifan Zhu, Luu Anh Tuan. <em>KBQA-o1: Agentic Knowledge Base Question Answering with Monte Carlo Tree Search</em>. Proceedings of the International Conference on Machine Learning (<strong>ICML</strong>), 2025. <a href="https://arxiv.org/abs/2501.18922">[paper]</a> <a href="https://github.com/LHRLAB/KBQA-o1">[code]</a> </p>
 
+<p class="index"> Yu Feng, Yangli-ao Geng, Yifan Zhu, Zongfu Han, Xie Yu, Kaiwen Xue, <strong>Haoran Luo</strong>, Mengyang Sun, Guangwei Zhang, Meina Song. <em>PM-MOE: Mixture of Experts on Private Model Parameters for Personalized Federated Learnin</em>. Proceedings of the ACM on Web Conference (<strong>WWW</strong>), 2025. <a href="https://dl.acm.org/doi/abs/10.1145/3696410.3714561">[paper]</a> <a href="https://github.com/dannis97500/PM-MOE">[code]</a> </p>
+
 <p class="index"> Ningyuan Li, Haihong E, Tianyu Yao, Tianyi Hu, Yuhan Li, <strong>Haoran Luo</strong>, Meina Song, Yifan Zhu. <em>INFER: A Neural-symbolic Model For Extrapolation Reasoning on Temporal Knowledge Graph</em>. Proceedings of the International Conference on Learning Representations (<strong>ICLR</strong>), 2025. <a href="https://openreview.net/forum?id=ExHUtB2vnz">[paper]</a> <a href="https://github.com/JasonLee-22/INFER">[code]</a> </p>
 
-<p class="index"> Yu Feng, Yangli-ao Geng, Yifan Zhu, Zongfu Han, Xie Yu, Kaiwen Xue, <strong>Haoran Luo</strong>, Mengyang Sun, Guangwei Zhang, Meina Song. <em>PM-MOE: Mixture of Experts on Private Model Parameters for Personalized Federated Learnin</em>. Proceedings of the ACM on Web Conference (<strong>WWW</strong>), 2025. <a href="https://dl.acm.org/doi/abs/10.1145/3696410.3714561">[paper]</a> <a href="https://github.com/dannis97500/PM-MOE">[code]</a> </p>
+<p class="index"> Shuai Lyu, Zijing Tian, Zhonghong Ou, Yifan Zhu, Xiao Zhang, Qiankun Ha, <strong>Haoran Luo</strong>, Meina Song. <em>TSVC: Tripartite Learning with Semantic Variation Consistency for Robust Image-Text Retrieval</em>. Proceedings of the AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2025. <a href="https://arxiv.org/abs/2501.10935">[preprint]</a>
 
 <p class="index"> <strong>Haoran Luo</strong>, Haihong E, Yuhao Yang, Tianyu Yao, Yikai Guo, Zichen Tang, Wentai Zhang, Shiyao Peng, Kaiyang Wan, Meina Song, Wei Lin, Yifan Zhu, Luu Anh Tuan. <em>Text2NKG: Fine-Grained N-ary Relation Extraction for N-ary relational Knowledge Graph Construction</em>. Proceedings of the Advances in Neural Information Processing Systems (<strong>NeurIPS</strong>), 2024. <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/305b2288122d46bf0641bdd86c9a7921-Abstract-Conference.html">[paper]</a> <a href="https://github.com/LHRLAB/Text2NKG">[code]</a> </p>
 
