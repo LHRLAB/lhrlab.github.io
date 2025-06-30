@@ -47,6 +47,7 @@
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2023</div><img src='images/DHGE.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
+
 [DHGE: Dual-View Hyper-Relational Knowledge Graph Embedding for Link Prediction and Entity Typing](https://ojs.aaai.org/index.php/AAAI/article/view/25795) \\
 **Haoran Luo**, Haihong E, Ling Tan, Gengxian Zhou, Tianyu Yao, Kaiyang Wan\\
 \[[paper](https://ojs.aaai.org/index.php/AAAI/article/view/25795/25567)\]\[[code](https://github.com/LHRLAB/DHGE)\]
