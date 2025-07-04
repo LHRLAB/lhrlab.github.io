@@ -13,3 +13,5 @@ Email: [luohaoran@bupt.edu.cn](mailto:luohaoran@bupt.edu.cn)
 Office: N4-B1a-02, Computational Intelligence Lab, CCDS, NTU
 
 **Note:** I am currently open to academic opportunities. Please feel free to contact me regarding any available positions.
+
+**Note:** I’m also actively looking for self-motivated students and researchers to collaborate on frontier topics in LLM-related research. If you’re interested in my research directions, please feel free to reach out to me.
