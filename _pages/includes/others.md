@@ -1,5 +1,5 @@
 
-# 📖 Educations
+# 📖 Education and Experience
 - *2024.11 - Present*: Joint Ph.D., College of Computing and Data Science, Nanyang Technological University, Singapore.
 - *2021.09 - Present*: Ph.D., School of Computer Science, Beijing University of Posts and Telecommunications, Beijing.
 - *2017.09 - 2021.06*: Undergraduate, School of Computer Science, Beijing University of Posts and Telecommunications, Beijing.
