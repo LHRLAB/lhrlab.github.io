@@ -9,10 +9,13 @@ main:
   - title: "Publications"
     url: "/#-publications"
 
+  - title: "Academic Services"
+    url: "/#-services"
+
   - title: "Honors and Awards"
     url: "/#-honors-and-awards"
 
-  - title: "Educations"
+  - title: "Education and Experience"
     url: "/#-educations"
 
   # - title: "Invited Talks"
