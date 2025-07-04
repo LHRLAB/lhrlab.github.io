@@ -10,6 +10,6 @@ My research interest includes knowledge graph, large language model and their bi
 
 Email: [luohaoran@bupt.edu.cn](mailto:luohaoran@bupt.edu.cn)
 
-Office: N4-B1a-02, Computational Intelligence Lab, CCDS, NTU, Singapore
+Office: N4-B1a-02, Computational Intelligence Lab, CCDS, NTU
 
 **Note:** I am currently open to academic opportunities. Please feel free to contact me regarding any available positions.
