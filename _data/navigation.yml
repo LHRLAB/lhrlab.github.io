@@ -6,18 +6,18 @@ main:
   # - title: "News"
   #   url: "/#-news"
 
-  - title: "Selected Publications"
-    url: "/#-selected-publications"
+  - title: "Publications"
+    url: "/#-publications"
 
-  - title: "Academic Services"
-    url: "/#-academic-services"
+  - title: "Services"
+    url: "/#-services"
 
   - title: "Honors and Awards"
     url: "/#-honors-and-awards"
 
 
-  - title: "Education and Experience"
-    url: "/#-education-and-experience"
+  - title: "Education"
+    url: "/#-education"
 
   # - title: "Invited Talks"
   #   url: "/#-invited-talks"
