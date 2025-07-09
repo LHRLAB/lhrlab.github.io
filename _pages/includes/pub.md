@@ -54,7 +54,7 @@
 </div>
 </div> -->
 
-# 📝 Selected Publications
+# 📚 Selected Publications
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
