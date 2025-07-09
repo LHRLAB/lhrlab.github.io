@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 <ol style="list-style-position: outside; padding-left: 1.2em; line-height: 1.5em;">
 
-**2025**
+## 2025
 
 <li> Kaiyang Wan, Honglin Mu, Rui Hao, <strong>Haoran Luo</strong>, Tianle Gu, Xiuying Chen. <em>A Cognitive Writing Perspective for Constrained Long-Form Text Generation</em>. Annual Meeting of the Association for Computational Linguistics (<strong>ACL</strong>), 2025. <a href="https://arxiv.org/abs/2502.12568">[preprint]</a> <a href="https://github.com/KaiyangWan/CogWriter">[code]</a> </li>
 
