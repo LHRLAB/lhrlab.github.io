@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>
 
-<p><sup>*</sup> Equal contribution. <sup>†</sup> Corresponding author.</p>
+<p><strong><sup>*</sup></strong> Equal contribution. <strong><sup>†</sup></strong> Corresponding author.</p>
 
 <ul style="list-style-type: disc; padding-left: 1.2em; line-height: 1.5em;">
 <h2>Preprint</h2>
