@@ -89,9 +89,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 <li> Wenjun Ke, Yikai Guo, Qi Liu, Wanyi Chen, Peng Wang, <strong>Haoran Luo</strong>, Zhizhao Luo. <em>MDM: Meta diffusion model for hard-constrained text generation</em>. Knowledge-Based Systems (<strong>KBS</strong>), 2024. <a href="https://www.sciencedirect.com/science/article/abs/pii/S0950705123008973">[paper]</a> <a href="https://github.com/seukgcode/MDM">[code]</a> </li>
 
-<h2>2023 and before</h2>
-
 <li> Wentai Zhang, Haihong E, <strong>Haoran Luo</strong>, Mingzhi Sun. <em>FulBM: Fast fully batch maintenance for landmark-based 3-hop cover labeling</em>. ACM Transactions on Knowledge Discovery from Data (<strong>ACM TKDD</strong>), 2024. <a href="https://dl.acm.org/doi/abs/10.1145/3650035">[paper]</a> <a href="https://github.com/ZHANGWENTAI/FulBM">[code]</a> </li>
+
+<h2>2023 and before</h2>
 
 <li> Xueyuan Lin, Haihong E, Chengjin Xu, Gengxian Zhou, <strong>Haoran Luo</strong>, Tianyi Hu, Fenglong Su, Ningyuan Li, Mingzhi Sun. <em>TFLEX: Temporal Feature-Logic Embedding Framework for Complex Reasoning over Temporal Knowledge Graph</em>. Proceedings of the Advances in Neural Information Processing Systems (<strong>NeurIPS</strong>), 2023. <a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/e71a42c64851834013e2658b69d7fe93-Abstract-Conference.html">[paper]</a> <a href="https://github.com/LinXueyuanStdio/TFLEX">[code]</a> </li>
 
