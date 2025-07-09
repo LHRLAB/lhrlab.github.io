@@ -65,18 +65,20 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>
 
+<p><sup>*</sup> Equal contribution. <sup>†</sup> Corresponding author.</p>
 
 <ul style="list-style-type: disc; padding-left: 1.2em; line-height: 1.5em;">
 <h2>Preprint</h2>
 
+<li> Haolin Pan, Hongyu Lin, <strong>Haoran Luo<sup>†</sup></strong>, Yang Liu, Kaichun Yao, Libo Zhang, Mingjie Xing<strong><sup>†</sup></strong>, Yanjun Wu. <em>Compiler-R1: Towards Agentic Compiler Auto-tuning with Reinforcement Learning</em>. arXiv:2506.15701. <a href="https://arxiv.org/abs/2506.15701">[preprint]</a> <a href="https://github.com/Panhaolin2001/Compiler-R1">[code]</a> </li>
+
 <li> <strong>Haoran Luo</strong>, Haihong E, Guanting Chen, Yandan Zheng, Xiaobao Wu, Yikai Guo, Qika Lin, Yu Feng, Zemin Kuang, Meina Song, Yifan Zhu, Luu Anh Tuan. <em>HyperGraphRAG: Retrieval-Augmented Generation via Hypergraph-Structured Knowledge Representation</em>. arXiv:2503.21322. <a href="https://arxiv.org/abs/2503.21322">[preprint]</a> <a href="https://github.com/LHRLAB/HyperGraphRAG">[code]</a> </li>
 
-<li> Hongyu Lin, Yuchen Li, <strong>Haoran Luo</strong>, Kaichun Yao, Libo Zhang, Mingjie Xing, Yanjun Wu. <em>BYOS: Knowledge-driven Large Language Models Bring Your Own Operating System More Excellent</em>. arXiv:2503.09663
-. <a href="https://arxiv.org/abs/2503.09663">[preprint]</a> <a href="https://github.com/LHY-24/BYOS">[code]</a> </li>
+<li> Hongyu Lin, Yuchen Li, <strong>Haoran Luo<sup>†</sup></strong>, Kaichun Yao, Libo Zhang, Mingjie Xing<strong><sup>†</sup></strong>, Yanjun Wu. <em>BYOS: Knowledge-driven Large Language Models Bring Your Own Operating System More Excellent</em>. arXiv:2503.09663. <a href="https://arxiv.org/abs/2503.09663">[preprint]</a> <a href="https://github.com/LHY-24/BYOS">[code]</a> </li>
 
-<li> Hongyu Lin, <strong>Haoran Luo</strong>, Hanghang Cao, Yang Liu, Shihao Gao, Kaichun Yao, Libo Zhang, Mingjie Xing, Yanjun Wu. <em>KGCompiler: Deep Learning Compilation Optimization for Knowledge Graph Complex Logical Query Answering</em>. arXiv:2503.02172. <a href="https://arxiv.org/abs/2503.02172">[preprint]</a> <a href="https://github.com/LHY-24/KGCompiler">[code]</a> </li>
+<li> Hongyu Lin<strong><sup>*</sup></strong>, <strong>Haoran Luo<sup>*</sup></strong>, Hanghang Cao<strong><sup>*</sup></strong>, Yang Liu, Shihao Gao, Kaichun Yao, Libo Zhang, Mingjie Xing, Yanjun Wu. <em>KGCompiler: Deep Learning Compilation Optimization for Knowledge Graph Complex Logical Query Answering</em>. arXiv:2503.02172. <a href="https://arxiv.org/abs/2503.02172">[preprint]</a> <a href="https://github.com/LHY-24/KGCompiler">[code]</a> </li>
 
-<li> Shuai Lyu, <strong>Haoran Luo</strong>, Ripeng Li, Zhonghong Ou, Jiangfeng Sun, Yang Qin, Xiaoran Shang, Meina Song, Yifan Zhu. <em>SQL-o1: A Self-Reward Heuristic Dynamic Search Method for Text-to-SQL</em>. arXiv:2502.11741. <a href="https://arxiv.org/abs/2502.11741">[preprint]</a> <a href="https://github.com/ShuaiLyu0110/SQL-o1">[code]</a> </li>
+<li> Shuai Lyu<strong><sup>*</sup></strong>, <strong>Haoran Luo<sup>*</sup></strong>, Ripeng Li, Zhonghong Ou, Jiangfeng Sun, Yang Qin, Xiaoran Shang, Meina Song, Yifan Zhu. <em>SQL-o1: A Self-Reward Heuristic Dynamic Search Method for Text-to-SQL</em>. arXiv:2502.11741. <a href="https://arxiv.org/abs/2502.11741">[preprint]</a> <a href="https://github.com/ShuaiLyu0110/SQL-o1">[code]</a> </li>
 </ul>
 
 
