@@ -79,6 +79,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 <li> Shuai Lyu, Zijing Tian, Zhonghong Ou, Yifan Zhu, Xiao Zhang, Qiankun Ha, <strong>Haoran Luo</strong>, Meina Song. <em>TSVC: Tripartite Learning with Semantic Variation Consistency for Robust Image-Text Retrieval</em>. Proceedings of the AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2025. <a href="https://ojs.aaai.org/index.php/AAAI/article/view/34121">[paper]</a> </li>
 
+<h2>2024</h2>
+
 <li> <strong>Haoran Luo</strong>, Haihong E, Yuhao Yang, Tianyu Yao, Yikai Guo, Zichen Tang, Wentai Zhang, Shiyao Peng, Kaiyang Wan, Meina Song, Wei Lin, Yifan Zhu, Luu Anh Tuan. <em>Text2NKG: Fine-Grained N-ary Relation Extraction for N-ary relational Knowledge Graph Construction</em>. Proceedings of the Advances in Neural Information Processing Systems (<strong>NeurIPS</strong>), 2024. <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/305b2288122d46bf0641bdd86c9a7921-Abstract-Conference.html">[paper]</a> <a href="https://github.com/LHRLAB/Text2NKG">[code]</a> </li>
 
 <li> Yu Feng, Zhen Tian, Yifan Zhu, Zongfu Han, <strong>Haoran Luo</strong>, Guangwei Zhang, Meina Song. <em>CP-Prompt: Composition-Based Cross-modal Prompting for Domain-Incremental Continual Learning</em>. Proceedings of the ACM International Conference on Multimedia (<strong>ACM MM</strong>), 2024. <a href="https://dl.acm.org/doi/abs/10.1145/3664647.3681481">[paper]</a> <a href="https://github.com/dannis97500/CP_Prompt">[code]</a> </li>
@@ -86,6 +88,8 @@ document.addEventListener("DOMContentLoaded", function() {
 <li> <strong>Haoran Luo</strong>, Haihong E, Zichen Tang, Shiyao Peng, Yikai Guo, Wentai Zhang, Chenghao Ma, Guanting Dong, Meina Song, Wei Lin, Yifan Zhu, Luu Anh Tuan. <em>ChatKBQA: A Generate-then-Retrieve Framework for Knowledge Base Question Answering with Fine-tuned Large Language Models</em>. Annual Meeting of the Association for Computational Linguistics (<strong>ACL</strong>), 2024. <a href="https://aclanthology.org/2024.findings-acl.122/">[paper]</a> <a href="https://github.com/LHRLAB/ChatKBQA">[code]</a> </li>
 
 <li> Wenjun Ke, Yikai Guo, Qi Liu, Wanyi Chen, Peng Wang, <strong>Haoran Luo</strong>, Zhizhao Luo. <em>MDM: Meta diffusion model for hard-constrained text generation</em>. Knowledge-Based Systems (<strong>KBS</strong>), 2024. <a href="https://www.sciencedirect.com/science/article/abs/pii/S0950705123008973">[paper]</a> <a href="https://github.com/seukgcode/MDM">[code]</a> </li>
+
+<h2>2023 and before</h2>
 
 <li> Wentai Zhang, Haihong E, <strong>Haoran Luo</strong>, Mingzhi Sun. <em>FulBM: Fast fully batch maintenance for landmark-based 3-hop cover labeling</em>. ACM Transactions on Knowledge Discovery from Data (<strong>ACM TKDD</strong>), 2024. <a href="https://dl.acm.org/doi/abs/10.1145/3650035">[paper]</a> <a href="https://github.com/ZHANGWENTAI/FulBM">[code]</a> </li>
 
