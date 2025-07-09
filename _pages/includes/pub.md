@@ -68,9 +68,13 @@ document.addEventListener("DOMContentLoaded", function() {
 
 <ul style="list-style-type: disc; padding-left: 1.2em; line-height: 1.5em;">
 <h2>Preprint</h2>
-<li>KGCompiler: A compiler-style optimizer for complex logical query over KG</li>
-<li>Graph-R1: Reinforced multi-turn GraphRAG agent with hypergraph and retriever</li>
-<li>HyperGraphRAG for Multimodal Clinical Decision Support</li>
+<li> Shuai Lyu, <strong>Haoran Luo</strong>, Ripeng Li, Zhonghong Ou, Jiangfeng Sun, Yang Qin, Xiaoran Shang, Meina Song, Yifan Zhu. <em>SQL-o1: A Self-Reward Heuristic Dynamic Search Method for Text-to-SQL</em>. arXiv:2502.11741. <a href="https://arxiv.org/abs/2502.11741">[preprint]</a> <a href="https://github.com/ShuaiLyu0110/SQL-o1">[code]</a> </li>
+</ul>
+
+<li> Shuai Lyu, <strong>Haoran Luo</strong>, Ripeng Li, Zhonghong Ou, Jiangfeng Sun, Yang Qin, Xiaoran Shang, Meina Song, Yifan Zhu. <em>SQL-o1: A Self-Reward Heuristic Dynamic Search Method for Text-to-SQL</em>. arXiv:2502.11741. <a href="https://arxiv.org/abs/2502.11741">[preprint]</a> <a href="https://github.com/ShuaiLyu0110/SQL-o1">[code]</a> </li>
+</ul>
+
+<li> Shuai Lyu, <strong>Haoran Luo</strong>, Ripeng Li, Zhonghong Ou, Jiangfeng Sun, Yang Qin, Xiaoran Shang, Meina Song, Yifan Zhu. <em>SQL-o1: A Self-Reward Heuristic Dynamic Search Method for Text-to-SQL</em>. arXiv:2502.11741. <a href="https://arxiv.org/abs/2502.11741">[preprint]</a> <a href="https://github.com/ShuaiLyu0110/SQL-o1">[code]</a> </li>
 </ul>
 
 
