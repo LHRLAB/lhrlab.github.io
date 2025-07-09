@@ -65,6 +65,8 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>
 
+## 2025
+
 <ol style="list-style-position: outside; padding-left: 1.2em; line-height: 1.5em;">
 
 <li> Kaiyang Wan, Honglin Mu, Rui Hao, <strong>Haoran Luo</strong>, Tianle Gu, Xiuying Chen. <em>A Cognitive Writing Perspective for Constrained Long-Form Text Generation</em>. Annual Meeting of the Association for Computational Linguistics (<strong>ACL</strong>), 2025. <a href="https://arxiv.org/abs/2502.12568">[preprint]</a> <a href="https://github.com/KaiyangWan/CogWriter">[code]</a> </li>
@@ -76,6 +78,10 @@ document.addEventListener("DOMContentLoaded", function() {
 <li> Ningyuan Li, Haihong E, Tianyu Yao, Tianyi Hu, Yuhan Li, <strong>Haoran Luo</strong>, Meina Song, Yifan Zhu. <em>INFER: A Neural-symbolic Model For Extrapolation Reasoning on Temporal Knowledge Graph</em>. Proceedings of the International Conference on Learning Representations (<strong>ICLR</strong>), 2025. <a href="https://openreview.net/forum?id=ExHUtB2vnz">[paper]</a> <a href="https://github.com/JasonLee-22/INFER">[code]</a> </li>
 
 <li> Shuai Lyu, Zijing Tian, Zhonghong Ou, Yifan Zhu, Xiao Zhang, Qiankun Ha, <strong>Haoran Luo</strong>, Meina Song. <em>TSVC: Tripartite Learning with Semantic Variation Consistency for Robust Image-Text Retrieval</em>. Proceedings of the AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2025. <a href="https://ojs.aaai.org/index.php/AAAI/article/view/34121">[paper]</a> </li>
+
+</ol>
+
+<ol style="list-style-position: outside; padding-left: 1.2em; line-height: 1.5em;">
 
 <li> <strong>Haoran Luo</strong>, Haihong E, Yuhao Yang, Tianyu Yao, Yikai Guo, Zichen Tang, Wentai Zhang, Shiyao Peng, Kaiyang Wan, Meina Song, Wei Lin, Yifan Zhu, Luu Anh Tuan. <em>Text2NKG: Fine-Grained N-ary Relation Extraction for N-ary relational Knowledge Graph Construction</em>. Proceedings of the Advances in Neural Information Processing Systems (<strong>NeurIPS</strong>), 2024. <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/305b2288122d46bf0641bdd86c9a7921-Abstract-Conference.html">[paper]</a> <a href="https://github.com/LHRLAB/Text2NKG">[code]</a> </li>
 
