@@ -65,11 +65,12 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>
 
-<h2>Preprint</h2>
+
 <ul style="list-style-type: disc; padding-left: 1.2em; line-height: 1.5em;">
-  <li>KGCompiler: A compiler-style optimizer for complex logical query over KG</li>
-  <li>Graph-R1: Reinforced multi-turn GraphRAG agent with hypergraph and retriever</li>
-  <li>HyperGraphRAG for Multimodal Clinical Decision Support</li>
+<h2>Preprint</h2>
+<li>KGCompiler: A compiler-style optimizer for complex logical query over KG</li>
+<li>Graph-R1: Reinforced multi-turn GraphRAG agent with hypergraph and retriever</li>
+<li>HyperGraphRAG for Multimodal Clinical Decision Support</li>
 </ul>
 
 
