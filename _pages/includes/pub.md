@@ -70,6 +70,8 @@ document.addEventListener("DOMContentLoaded", function() {
 <ul style="list-style-type: disc; padding-left: 1.2em; line-height: 1.5em;">
 <h2>Preprint</h2>
 
+<li> Hang Yan, Fangzhi Xu, Rongman Xu, Yifei Li, Jian Zhang, <strong>Haoran Luo</strong>, Xiaobao Wu, Luu Anh Tuan, Haiteng Zhao, Qika Lin, Jun Liu. <em>MUR: Momentum Uncertainty guided Reasoning for Large Language Models</em>. arXiv:2507.14958. <a href="https://arxiv.org/abs/2507.14958">[preprint]</a> <a href="https://github.com/yayayacc/MUR">[code]</a> </li>
+
 <li> Haolin Pan, Hongyu Lin, <strong>Haoran Luo<sup>†</sup></strong>, Yang Liu, Kaichun Yao, Libo Zhang, Mingjie Xing<strong><sup>†</sup></strong>, Yanjun Wu. <em>Compiler-R1: Towards Agentic Compiler Auto-tuning with Reinforcement Learning</em>. arXiv:2506.15701. <a href="https://arxiv.org/abs/2506.15701">[preprint]</a> <a href="https://github.com/Panhaolin2001/Compiler-R1">[code]</a> </li>
 
 <li> <strong>Haoran Luo</strong>, Haihong E, Guanting Chen, Yandan Zheng, Xiaobao Wu, Yikai Guo, Qika Lin, Yu Feng, Zemin Kuang, Meina Song, Yifan Zhu, Luu Anh Tuan. <em>HyperGraphRAG: Retrieval-Augmented Generation via Hypergraph-Structured Knowledge Representation</em>. arXiv:2503.21322. <a href="https://arxiv.org/abs/2503.21322">[preprint]</a> <a href="https://github.com/LHRLAB/HyperGraphRAG">[code]</a> </li>
