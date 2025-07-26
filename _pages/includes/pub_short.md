@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 <h2>2025</h2>
 
-<li> Kaiyang Wan, Honglin Mu, Rui Hao, <strong>Haoran Luo</strong>, Tianle Gu, Xiuying Chen. <em>A Cognitive Writing Perspective for Constrained Long-Form Text Generation</em>. Annual Meeting of the Association for Computational Linguistics (<strong>ACL</strong>), 2025. <a href="https://arxiv.org/abs/2502.12568">[preprint]</a> <a href="https://github.com/KaiyangWan/CogWriter">[code]</a> </li>
+<li> Kaiyang Wan, Honglin Mu, Rui Hao, <strong>Haoran Luo</strong>, Tianle Gu, Xiuying Chen. <em>A Cognitive Writing Perspective for Constrained Long-Form Text Generation</em>. Annual Meeting of the Association for Computational Linguistics (<strong>ACL</strong>), 2025. <a href="https://aclanthology.org/2025.findings-acl.511/">[paper]</a> <a href="https://github.com/KaiyangWan/CogWriter">[code]</a> </li>
 
 <li> <strong>Haoran Luo</strong>, Haihong E, Yikai Guo, Qika Lin, Xiaobao Wu, Xinyu Mu, Wenhao Liu, Meina Song, Yifan Zhu, Luu Anh Tuan. <em>KBQA-o1: Agentic Knowledge Base Question Answering with Monte Carlo Tree Search</em>. Proceedings of the International Conference on Machine Learning (<strong>ICML</strong>), 2025. <a href="https://arxiv.org/abs/2501.18922">[preprint]</a> <a href="https://github.com/LHRLAB/KBQA-o1">[code]</a> </li> 
 
