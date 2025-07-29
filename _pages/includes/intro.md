@@ -8,7 +8,7 @@ My research interest includes knowledge graph, large language model and their bi
 - Multi-modal Information Fusion
 - Applications in Healthcare, Education, Law, and Computer Systems
 
-Email: [luohaoran@bupt.edu.cn](mailto:luohaoran@bupt.edu.cn)
+Email: [haoran-luo@outlook.com](mailto:haoran-luo@outlook.com)
 
 Office: N4-B1a-02, Computational Intelligence Lab, CCDS, NTU
 
