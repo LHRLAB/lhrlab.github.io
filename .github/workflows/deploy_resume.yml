@@ -1,46 +1,41 @@
-name: Build Resume
+name: Build and Deploy Resume to GitHub Pages
 
 on:
   push:
     paths:
-      - '**'
+      - 'resume/**'
+      - '_pages/projects.yml'
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
 
-      - name: Install dependencies
+      - name: Install deps
         run: |
           sudo apt-get update
           sudo apt-get install -y texlive-latex-extra
           pip install pyyaml
 
-      - name: Generate resume.tex
+      - name: Generate LaTeX
         run: python3 resume/scripts/generate_tex.py
 
-      - name: Compile LaTeX resume
+      - name: Compile PDF
         working-directory: resume
         run: pdflatex resume.tex
 
-      - name: Move resume.pdf to docs/
-        run: |
-          mkdir -p docs
-          cp resume/resume.pdf docs/resume.pdf
-
-      - name: Commit updated PDF
-        run: |
-          git config user.name github-actions
-          git config user.email actions@github.com
-          git add docs/resume.pdf
-          git commit -m "update resume.pdf"
-          git push
-        continue-on-error: true
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./resume
+          publish_branch: gh-pages
+          destination_dir: .
+          keep_files: false
