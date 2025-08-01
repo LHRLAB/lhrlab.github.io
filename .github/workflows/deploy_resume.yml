@@ -8,15 +8,21 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container:
-      image: danteev/texlive:full  # ✅ 含 pdflatex 和 python3+pip3
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Install Python deps
-        run: pip3 install pyyaml
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y texlive-latex-extra
+          pip install pyyaml
 
       - name: Generate resume.tex
         run: python3 resume/scripts/generate_tex.py
@@ -25,12 +31,12 @@ jobs:
         working-directory: resume
         run: pdflatex resume.tex
 
-      - name: Move PDF to docs/
+      - name: Move resume.pdf to docs/
         run: |
           mkdir -p docs
           cp resume/resume.pdf docs/resume.pdf
 
-      - name: Commit to GitHub Pages
+      - name: Commit updated PDF
         run: |
           git config user.name github-actions
           git config user.email actions@github.com
