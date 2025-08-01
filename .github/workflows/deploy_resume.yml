@@ -28,19 +28,13 @@ jobs:
         run: python3 resume/scripts/generate_tex.py
 
       - name: Compile LaTeX resume
-        working-directory: resume
-        run: pdflatex resume.tex
-
-      - name: Move resume.pdf to docs/
-        run: |
-          mkdir -p docs
-          cp resume/resume.pdf docs/resume.pdf
+        run: pdflatex resume/resume.tex
 
       - name: Commit updated PDF
         run: |
           git config user.name github-actions
           git config user.email actions@github.com
-          git add -f docs/resume.pdf
+          git add -f resume.pdf
           git commit -m "update resume.pdf"
           git push
         continue-on-error: true
