@@ -3,7 +3,8 @@ name: Build Resume
 on:
   push:
     paths:
-      - '**'
+      - 'resume/**'
+      - '_pages/**'
 
 jobs:
   build:
