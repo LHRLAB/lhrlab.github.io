@@ -5,5 +5,3 @@ projects:
     description: N-ary relation extraction for KG construction (NeurIPS 2024).
   - title: HyperGraphRAG
     description: Structured retrieval and reasoning with hypergraph-based RAG (under review at NeurIPS 2025).
-  - title: Graph-R1
-    description: Structured retrieval and reasoning with hypergraph-based RAG (under review at NeurIPS 2025).
