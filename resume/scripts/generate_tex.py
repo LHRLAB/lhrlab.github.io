@@ -1,7 +1,7 @@
 import yaml
 import os
 
-with open("resume/resume_template.tex", "r") as f:
+with open("resume/template/resume_template.tex", "r") as f:
     resume_template = f.read()
 
 
