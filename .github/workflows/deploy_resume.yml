@@ -40,7 +40,7 @@ jobs:
         run: |
           git config user.name github-actions
           git config user.email actions@github.com
-          git add docs/resume.pdf
+          git add -f docs/resume.pdf
           git commit -m "update resume.pdf"
           git push
         continue-on-error: true
