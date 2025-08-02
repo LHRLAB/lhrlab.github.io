@@ -13,9 +13,19 @@
 \usepackage{marvosym}
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{verbatim}
+\usepackage{xcolor}
 \usepackage{enumitem}
+\setlist[itemize]{itemsep=0.01pt}
 \usepackage[pdftex]{hyperref}
 \usepackage{fancyhdr}
+\usepackage{hyperref}
+\definecolor{DeepBlue}{rgb}{0.0, 0.1, 0.4}
+\hypersetup{
+  colorlinks=true,    % 启用彩色链接
+  urlcolor=DeepBlue, 
+  linkcolor=DeepBlue,
+  citecolor=DeepBlue
+}
 
 
 \pagestyle{fancy}
@@ -25,11 +35,11 @@
 \renewcommand{\footrulewidth}{0pt}
 
 % Adjust margins
-\addtolength{\oddsidemargin}{-0.375in}
-\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
 \addtolength{\textwidth}{1in}
 \addtolength{\topmargin}{-.5in}
-\addtolength{\textheight}{1.0in}
+\addtolength{\textheight}{1in}
 
 \urlstyle{same}
 
@@ -74,118 +84,99 @@
 \begin{document}
 
 %----------HEADING-----------------
+% 第一部分：名字单独放在一行
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{mail@website.com}\\
-  \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+  \textbf{\href{https://lhrlab.github.io/}{\Huge Haoran Luo}} & \\
+\end{tabular*}
+
+\vspace{0.3em}  % ← 这里是关键：插入你需要的间距
+
+% 第二部分：联系方式
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  (+65) 87626691, (+86) 15801159812 & \href{https://scholar.google.com/citations?user=Q9Nv9mcAAAAJ}{Ph.D. Candidate, BUPT \& NTU} \\
+  \href{mailto:haoran-luo@outlook.com}{haoran-luo@outlook.com} & N4-B1a-02, Computational Intelligence Lab, CCDS, NTU \\
 \end{tabular*}
 
 
 %-----------EDUCATION-----------------
-\section{Education}
+\section{Academic Background}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Georgia Institute of Technology}{Atlanta, GA}
-      {Master of Science in Computer Science;  GPA: 4.00}{Aug. 2012 -- Dec. 2013}
+      {\href{https://www.ntu.edu.sg/computing}{College of Computing and Data Science}, Nanyang Technological University}{Singapore, SG}
+      {Joint Ph.D. in Artificial Intelligence, Advisor: \href{https://tuanluu.github.io/}{Luu Anh Tuan}}{Nov. 2024 -- present}
     \resumeSubheading
-      {Birla Institute of Technology and Science}{Pilani, India}
-      {Bachelor of Engineering in Electrical and Electronics;  GPA: 3.66 (9.15/10.0)}{Aug. 2008 -- July. 2012}
+      {\href{https://scs.bupt.edu.cn/}{Computer Science}, Beijing University of Posts and Telecommunications}{Beijing, CN}
+      {Ph.D. in Computer Science \& Technology, Advisor: \href{https://teacher.bupt.edu.cn/ehaihong/zh_CN/index.htm}{Haihong E}}{Sep. 2021 -- present}
+    \resumeSubheading
+      {\href{https://scs.bupt.edu.cn/}{Computer Science}, Beijing University of Posts and Telecommunications}{Beijing, CN}
+      {B.Eng. in Computer Science \& Technology}{Sep. 2017 -- Jun. 2021}
   \resumeSubHeadingListEnd
 
-##PROJECTS##
+
 %-----------EXPERIENCE-----------------
-\section{Experience}
-  \resumeSubHeadingListStart
+\section{Selected Publications}
+* Equal contribution. † Corresponding author.
 
-    \resumeSubheading
-      {Google}{Mountain View, CA}
-      {Software Engineer}{Oct 2016 - Present}
-      \resumeItemListStart
-        \resumeItem{Tensorflow}
-          {TensorFlow is an open source software library for numerical computation using data flow graphs; primarily used for training deep learning models.}
-        \resumeItem{Apache Beam}
-          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines, as well as a set of language-specific SDKs for constructing pipelines and runners.}
-      \resumeItemListEnd
+\vspace{1mm}
+\textbf{Preprint}
+\vspace{-1mm}
+\resumeSubHeadingListStart
+\item Haoran Luo, Haihong E, Guanting Chen, Qika Lin, Yikai Guo, Fangzhi Xu, Zemin Kuang, Meina Song, Xiaobao Wu, Yifan Zhu, Luu Anh Tuan. Graph-R1: Towards Agentic GraphRAG Framework via End-to-end Reinforcement Learning. arXiv:2507.21892. [preprint] [code]
+\item Hang Yan, Fangzhi Xu, Rongman Xu, Yifei Li, Jian Zhang, Haoran Luo, Xiaobao Wu, Luu Anh Tuan, Haiteng Zhao, Qika Lin, Jun Liu. MUR: Momentum Uncertainty guided Reasoning for Large Language Models. arXiv:2507.14958. [preprint] [code]
+\item Haolin Pan, Hongyu Lin, Haoran Luo†, Yang Liu, Kaichun Yao, Libo Zhang, Mingjie Xing†, Yanjun Wu. Compiler-R1: Towards Agentic Compiler Auto-tuning with Reinforcement Learning. arXiv:2506.15701. [preprint] [code]
+\item Haoran Luo, Haihong E, Guanting Chen, Yandan Zheng, Xiaobao Wu, Yikai Guo, Qika Lin, Yu Feng, Zemin Kuang, Meina Song, Yifan Zhu, Luu Anh Tuan. HyperGraphRAG: Retrieval-Augmented Generation via Hypergraph-Structured Knowledge Representation. arXiv:2503.21322. [preprint] [code]
+\item Hongyu Lin, Yuchen Li, Haoran Luo†, Kaichun Yao, Libo Zhang, Mingjie Xing†, Yanjun Wu. BYOS: Knowledge-driven Large Language Models Bring Your Own Operating System More Excellent. arXiv:2503.09663. [preprint] [code]
+\item Hongyu Lin*, Haoran Luo*, Hanghang Cao*, Yang Liu, Shihao Gao, Kaichun Yao, Libo Zhang, Mingjie Xing, Yanjun Wu. KGCompiler: Deep Learning Compilation Optimization for Knowledge Graph Complex Logical Query Answering. arXiv:2503.02172. [preprint] [code]
+\item Shuai Lyu*, Haoran Luo*, Ripeng Li, Zhonghong Ou, Jiangfeng Sun, Yang Qin, Xiaoran Shang, Meina Song, Yifan Zhu. SQL-o1: A Self-Reward Heuristic Dynamic Search Method for Text-to-SQL. arXiv:2502.11741. [preprint] [code]
+\resumeSubHeadingListEnd
 
-    \resumeSubheading
-      {Coursera}{Mountain View, CA}
-      {Senior Software Engineer}{Jan 2014 - Oct 2016}
-      \resumeItemListStart
-        \resumeItem{Notifications}
-          {Service for sending email, push and in-app notifications. Involved in features such as delivery time optimization, tracking, queuing and A/B testing. Built an internal app to run batch campaigns for marketing etc.}
-        \resumeItem{Nostos}
-          {Bulk data processing and injection service from Hadoop to Cassandra and provides a thin REST layer on top for serving offline computed data online.}
-        \resumeItem{Workflows}
-          {Dataduct an open source workflow framework to create and manage data pipelines leveraging reusables patterns to expedite developer productivity.}
-        \resumeItem{Data Collection}
-          {Designed the internal survey and crowd sourcing platfowm which allowed for creating various tasks for crowd sourding or embedding surveys across the Coursera platform.}
-        \resumeItem{Dev Environment}
-          {Analytics environment based on docker and AWS, standardized the python and R dependencies. Wrote the core libraries that are shared by all data scientists.}
-        \resumeItem{Data Warehousing}
-          {Setup, schema design and management of Amazon Redshift. Built an internal app for access to the data using a web interface. Dataduct integration for daily ETL injection into Redshift.}
-        \resumeItem{Recommendations}
-          {Core service for all recommendation systems at Coursesa, currently used on the homepage and throughout the content discovery process. Worked on both offline training and online serving.}
-        \resumeItem{Content Discovery}
-          {Improved content discovery by building a new onboarding experience on coursera. Using this to personalize the search and browse experience. Also worked on ranking and indexing improvements.}
-        \resumeItem{Course Dashboards}
-          {Instructor dashboards and learner surveying tools, which helped instructors run their class better by providing data on Assignments and Learner Activity.}
-      \resumeItemListEnd
+\textbf{2025}
+\vspace{-1mm}
+\resumeSubHeadingListStart
+\item Kaiyang Wan, Honglin Mu, Rui Hao, Haoran Luo, Tianle Gu, Xiuying Chen. A Cognitive Writing Perspective for Constrained Long-Form Text Generation. ACL 2025. [paper] [code]
+\item Haoran Luo, Haihong E, Yikai Guo, Qika Lin, Xiaobao Wu, Xinyu Mu, Wenhao Liu, Meina Song, Yifan Zhu, Luu Anh Tuan. KBQA-o1: Agentic Knowledge Base Question Answering with Monte Carlo Tree Search. ICML 2025. [preprint] [code]
+\item Yu Feng, Yangli-ao Geng, Yifan Zhu, Zongfu Han, Xie Yu, Kaiwen Xue, Haoran Luo, Mengyang Sun, Guangwei Zhang, Meina Song. PM-MOE: Mixture of Experts on Private Model Parameters for Personalized Federated Learning. WWW 2025. [paper] [code]
+\item Ningyuan Li, Haihong E, Tianyu Yao, Tianyi Hu, Yuhan Li, Haoran Luo, Meina Song, Yifan Zhu. INFER: A Neural-symbolic Model For Extrapolation Reasoning on Temporal Knowledge Graph. ICLR 2025. [paper] [code]
+\item Shuai Lyu, Zijing Tian, Zhonghong Ou, Yifan Zhu, Xiao Zhang, Qiankun Ha, Haoran Luo, Meina Song. TSVC: Tripartite Learning with Semantic Variation Consistency for Robust Image-Text Retrieval. AAAI 2025. [paper]
+\resumeSubHeadingListEnd
 
-    \resumeSubheading
-      {Lucena Research}{Atlanta, GA}
-      {Data Scientist}{Summer 2012 and 2013}
-      \resumeItemListStart
-        \resumeItem{Portfolio Management}
-          {Created models for portfolio hedging,  portfolio optimization and price forecasting. Also creating a strategy backtesting engine used for simulating and backtesting strategies.}
-        \resumeItem{QuantDesk}
-          {Python backend for a web application used by hedge fund managers for portfolio management.}
-      \resumeItemListEnd
+\textbf{2024}
+\vspace{-1mm}
+\resumeSubHeadingListStart
+\item Haoran Luo, Haihong E, Yuhao Yang, Tianyu Yao, Yikai Guo, Zichen Tang, Wentai Zhang, Shiyao Peng, Kaiyang Wan, Meina Song, Wei Lin, Yifan Zhu, Luu Anh Tuan. Text2NKG: Fine-Grained N-ary Relation Extraction for N-ary relational Knowledge Graph Construction. NeurIPS 2024. [paper] [code]
+\item Yu Feng, Zhen Tian, Yifan Zhu, Zongfu Han, Haoran Luo, Guangwei Zhang, Meina Song. CP-Prompt: Composition-Based Cross-modal Prompting for Domain-Incremental Continual Learning. ACM MM 2024. [paper] [code]
+\item Haoran Luo, Haihong E, Zichen Tang, Shiyao Peng, Yikai Guo, Wentai Zhang, Chenghao Ma, Guanting Dong, Meina Song, Wei Lin, Yifan Zhu, Luu Anh Tuan. ChatKBQA: A Generate-then-Retrieve Framework for Knowledge Base Question Answering with Fine-tuned Large Language Models. ACL 2024. [paper] [code]
+\item Wenjun Ke, Yikai Guo, Qi Liu, Wanyi Chen, Peng Wang, Haoran Luo, Zhizhao Luo. MDM: Meta diffusion model for hard-constrained text generation. KBS 2024. [paper] [code]
+\item Wentai Zhang, Haihong E, Haoran Luo, Mingzhi Sun. FulBM: Fast fully batch maintenance for landmark-based 3-hop cover labeling. ACM TKDD 2024. [paper] [code]
+\resumeSubHeadingListEnd
 
-  \resumeSubHeadingListEnd
-
-
-%-----------PROJECTS-----------------
-\section{Projects}
-  \resumeSubHeadingListStart
-    \resumeSubItem{QuantSoftware Toolkit}
-      {Open source python library for financial data analysis and machine learning for finance.}
-    \resumeSubItem{Github Visualization}
-      {Data Visualization of Git Log data using D3 to analyze project trends over time.}
-    \resumeSubItem{Recommendation System}
-      {Music and Movie recommender systems using collaborative filtering on public datasets.}
-%     \resumeSubItem{Mac Setup}
-%       {Book that gives step by step instructions on setting up developer environment on Mac OS.}
-  \resumeSubHeadingListEnd
+\textbf{2023 and before}
+\vspace{-1mm}
+\resumeSubHeadingListStart
+\item Xueyuan Lin, Haihong E, Chengjin Xu, Gengxian Zhou, Haoran Luo, Tianyi Hu, Fenglong Su, Ningyuan Li, Mingzhi Sun. TFLEX: Temporal Feature-Logic Embedding Framework for Complex Reasoning over Temporal Knowledge Graph. NeurIPS 2023. [paper] [code]
+\item Ningyuan Li, Haihong E, Shi Li, Mingzhi Sun, Tianyu Yao, Meina Song, Yong Wang, Haoran Luo. TR-Rules: Rule-based Model for Link Forecasting on Temporal Knowledge Graph Considering Temporal Redundancy. EMNLP 2023. [paper] [code]
+\item Haoran Luo, Haihong E, Yuhao Yang, Yikai Guo, Mingzhi Sun, Tianyu Yao, Zichen Tang, Kaiyang Wan, Meina Song, Wei Lin. HAHE: Hierarchical Attention for Hyper-Relational Knowledge Graphs in Global and Local Level. ACL 2023. [paper] [code]
+\item Haoran Luo, Haihong E, Yuhao Yang, Gengxian Zhou, Yikai Guo, Tianyu Yao, Zichen Tang, Xueyuan Lin, Kaiyang Wan. NQE: N-ary Query Embedding for Complex Query Answering over Hyper-Relational Knowledge Graphs. AAAI 2023. [paper] [code]
+\item Haoran Luo, Haihong E, Ling Tan, Gengxian Zhou, Tianyu Yao, Kaiyang Wan. DHGE: Dual-View Hyper-Relational Knowledge Graph Embedding for Link Prediction and Entity Typing. AAAI 2023. [paper] [code]
+\item Gengxian Zhou, Haihong E, Zemin Kuang, Ling Tan, Xiaoxuan Xie, Jundi Li, Haoran Luo. Clinical decision support system for hypertension medication based on knowledge graph. Computer Methods and Programs in Biomedicine, 2022. [paper]
+\resumeSubHeadingListEnd
 
 %
 %--------PROGRAMMING SKILLS------------
-\section{Programming Skills}
+\section{Academic Services}
  \resumeSubHeadingListStart
-   \item{
-     \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
-     \hfill
-     \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
-   }
+    \item \textbf{Conference Area Chair}: NeurIPS 2025, KDD 2025, KDD 2026
+    \item \textbf{Conference PC Member/Reviewer}: NeurIPS 2024, NeurIPS 2025, ICLR 2025, ICML 2025, ACL 2023, ACL 2024, ACL 2025, AAAI 2023, AAAI 2024, AAAI 2025, AAAI 2026, KDD 2025, WWW 2025, ACM MM 2025, EMNLP 2022, EMNLP 2023, EMNLP 2024, EMNLP 2025, NAACL 2024, NAACL 2025, COLING 2025, CIKM 2024, AISTATS 2025, NLPCC 2024, NLPCC 2025, CCKS 2025, IEEE ICKG 2025
+    \item \textbf{Journal Reviewer}: IEEE Transactions on Knowledge and Data Engineering (IEEE TKDE), IEEE Transactions on Dependable and Secure Computing (IEEE TDSC), Information Processing \& Management (IPM), Pattern Recognition (PR), Knowledge-Based Systems (KBS), Neurocomputing, Geo-spatial Information Science (TGSI)
  \resumeSubHeadingListEnd
 
 
-\section{Programming Skills}
- \resumeSubHeadingListStart
-   \item{
-     \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
-     \hfill
-     \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
-   }
- \resumeSubHeadingListEnd
-
-
- \section{Programming Skills}
- \resumeSubHeadingListStart
-   \item{
-     \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
-     \hfill
-     \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
-   }
- \resumeSubHeadingListEnd
+% \section{Honors and Awards}
+%  \resumeSubHeadingListStart
+%     \item \textit{2023.10}: National Scholarship for Excellent Ph.D. Students
+%     \item \textit{2023.06}: Campus Top Ten Pioneer 2023 of Beijing University of Posts and Telecommunications
+%     \item \textit{2020.06}: Campus Top Ten Pioneer 2020 of Beijing University of Posts and Telecommunications
+%  \resumeSubHeadingListEnd
 
 %-------------------------------------------
 \end{document}
