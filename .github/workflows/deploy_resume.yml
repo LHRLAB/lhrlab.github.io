@@ -6,7 +6,6 @@ on:
       - 'resume/**'
       - '_pages/includes/pub_short.md'
       - '_pages/includes/services.md'
-      - '_pages/includes/honors.md'
 
 jobs:
   build:

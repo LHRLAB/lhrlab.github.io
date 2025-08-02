@@ -26,7 +26,7 @@
   linkcolor=DeepBlue,
   citecolor=DeepBlue
 }
-
+\usepackage{datetime2}
 
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
@@ -86,8 +86,8 @@
 %----------HEADING-----------------
 % 第一部分：名字单独放在一行
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\href{https://lhrlab.github.io/}{\Huge Haoran Luo}} & \\
-\end{tabular*}
+  \textbf{\href{https://lhrlab.github.io/}{\Huge Haoran Luo}} & \raisebox{0.5ex}{\emph{Created: \DTMnow}}\\
+\end{tabular*}\\
 
 \vspace{0.3em}  % ← 这里是关键：插入你需要的间距
 
@@ -115,60 +115,18 @@
 
 %-----------EXPERIENCE-----------------
 \section{Selected Publications}
-* Equal contribution. † Corresponding author.
-
+\textbf{\textsuperscript{*}} Equal contribution. \textbf{\textsuperscript{†}} Corresponding author.
 \vspace{1mm}
-\textbf{Preprint}
-\vspace{-1mm}
-\resumeSubHeadingListStart
-\item Haoran Luo, Haihong E, Guanting Chen, Qika Lin, Yikai Guo, Fangzhi Xu, Zemin Kuang, Meina Song, Xiaobao Wu, Yifan Zhu, Luu Anh Tuan. Graph-R1: Towards Agentic GraphRAG Framework via End-to-end Reinforcement Learning. arXiv:2507.21892. [preprint] [code]
-\item Hang Yan, Fangzhi Xu, Rongman Xu, Yifei Li, Jian Zhang, Haoran Luo, Xiaobao Wu, Luu Anh Tuan, Haiteng Zhao, Qika Lin, Jun Liu. MUR: Momentum Uncertainty guided Reasoning for Large Language Models. arXiv:2507.14958. [preprint] [code]
-\item Haolin Pan, Hongyu Lin, Haoran Luo†, Yang Liu, Kaichun Yao, Libo Zhang, Mingjie Xing†, Yanjun Wu. Compiler-R1: Towards Agentic Compiler Auto-tuning with Reinforcement Learning. arXiv:2506.15701. [preprint] [code]
-\item Haoran Luo, Haihong E, Guanting Chen, Yandan Zheng, Xiaobao Wu, Yikai Guo, Qika Lin, Yu Feng, Zemin Kuang, Meina Song, Yifan Zhu, Luu Anh Tuan. HyperGraphRAG: Retrieval-Augmented Generation via Hypergraph-Structured Knowledge Representation. arXiv:2503.21322. [preprint] [code]
-\item Hongyu Lin, Yuchen Li, Haoran Luo†, Kaichun Yao, Libo Zhang, Mingjie Xing†, Yanjun Wu. BYOS: Knowledge-driven Large Language Models Bring Your Own Operating System More Excellent. arXiv:2503.09663. [preprint] [code]
-\item Hongyu Lin*, Haoran Luo*, Hanghang Cao*, Yang Liu, Shihao Gao, Kaichun Yao, Libo Zhang, Mingjie Xing, Yanjun Wu. KGCompiler: Deep Learning Compilation Optimization for Knowledge Graph Complex Logical Query Answering. arXiv:2503.02172. [preprint] [code]
-\item Shuai Lyu*, Haoran Luo*, Ripeng Li, Zhonghong Ou, Jiangfeng Sun, Yang Qin, Xiaoran Shang, Meina Song, Yifan Zhu. SQL-o1: A Self-Reward Heuristic Dynamic Search Method for Text-to-SQL. arXiv:2502.11741. [preprint] [code]
-\resumeSubHeadingListEnd
 
-\textbf{2025}
-\vspace{-1mm}
-\resumeSubHeadingListStart
-\item Kaiyang Wan, Honglin Mu, Rui Hao, Haoran Luo, Tianle Gu, Xiuying Chen. A Cognitive Writing Perspective for Constrained Long-Form Text Generation. ACL 2025. [paper] [code]
-\item Haoran Luo, Haihong E, Yikai Guo, Qika Lin, Xiaobao Wu, Xinyu Mu, Wenhao Liu, Meina Song, Yifan Zhu, Luu Anh Tuan. KBQA-o1: Agentic Knowledge Base Question Answering with Monte Carlo Tree Search. ICML 2025. [preprint] [code]
-\item Yu Feng, Yangli-ao Geng, Yifan Zhu, Zongfu Han, Xie Yu, Kaiwen Xue, Haoran Luo, Mengyang Sun, Guangwei Zhang, Meina Song. PM-MOE: Mixture of Experts on Private Model Parameters for Personalized Federated Learning. WWW 2025. [paper] [code]
-\item Ningyuan Li, Haihong E, Tianyu Yao, Tianyi Hu, Yuhan Li, Haoran Luo, Meina Song, Yifan Zhu. INFER: A Neural-symbolic Model For Extrapolation Reasoning on Temporal Knowledge Graph. ICLR 2025. [paper] [code]
-\item Shuai Lyu, Zijing Tian, Zhonghong Ou, Yifan Zhu, Xiao Zhang, Qiankun Ha, Haoran Luo, Meina Song. TSVC: Tripartite Learning with Semantic Variation Consistency for Robust Image-Text Retrieval. AAAI 2025. [paper]
-\resumeSubHeadingListEnd
+##PUB_STR##
 
-\textbf{2024}
-\vspace{-1mm}
-\resumeSubHeadingListStart
-\item Haoran Luo, Haihong E, Yuhao Yang, Tianyu Yao, Yikai Guo, Zichen Tang, Wentai Zhang, Shiyao Peng, Kaiyang Wan, Meina Song, Wei Lin, Yifan Zhu, Luu Anh Tuan. Text2NKG: Fine-Grained N-ary Relation Extraction for N-ary relational Knowledge Graph Construction. NeurIPS 2024. [paper] [code]
-\item Yu Feng, Zhen Tian, Yifan Zhu, Zongfu Han, Haoran Luo, Guangwei Zhang, Meina Song. CP-Prompt: Composition-Based Cross-modal Prompting for Domain-Incremental Continual Learning. ACM MM 2024. [paper] [code]
-\item Haoran Luo, Haihong E, Zichen Tang, Shiyao Peng, Yikai Guo, Wentai Zhang, Chenghao Ma, Guanting Dong, Meina Song, Wei Lin, Yifan Zhu, Luu Anh Tuan. ChatKBQA: A Generate-then-Retrieve Framework for Knowledge Base Question Answering with Fine-tuned Large Language Models. ACL 2024. [paper] [code]
-\item Wenjun Ke, Yikai Guo, Qi Liu, Wanyi Chen, Peng Wang, Haoran Luo, Zhizhao Luo. MDM: Meta diffusion model for hard-constrained text generation. KBS 2024. [paper] [code]
-\item Wentai Zhang, Haihong E, Haoran Luo, Mingzhi Sun. FulBM: Fast fully batch maintenance for landmark-based 3-hop cover labeling. ACM TKDD 2024. [paper] [code]
-\resumeSubHeadingListEnd
-
-\textbf{2023 and before}
-\vspace{-1mm}
-\resumeSubHeadingListStart
-\item Xueyuan Lin, Haihong E, Chengjin Xu, Gengxian Zhou, Haoran Luo, Tianyi Hu, Fenglong Su, Ningyuan Li, Mingzhi Sun. TFLEX: Temporal Feature-Logic Embedding Framework for Complex Reasoning over Temporal Knowledge Graph. NeurIPS 2023. [paper] [code]
-\item Ningyuan Li, Haihong E, Shi Li, Mingzhi Sun, Tianyu Yao, Meina Song, Yong Wang, Haoran Luo. TR-Rules: Rule-based Model for Link Forecasting on Temporal Knowledge Graph Considering Temporal Redundancy. EMNLP 2023. [paper] [code]
-\item Haoran Luo, Haihong E, Yuhao Yang, Yikai Guo, Mingzhi Sun, Tianyu Yao, Zichen Tang, Kaiyang Wan, Meina Song, Wei Lin. HAHE: Hierarchical Attention for Hyper-Relational Knowledge Graphs in Global and Local Level. ACL 2023. [paper] [code]
-\item Haoran Luo, Haihong E, Yuhao Yang, Gengxian Zhou, Yikai Guo, Tianyu Yao, Zichen Tang, Xueyuan Lin, Kaiyang Wan. NQE: N-ary Query Embedding for Complex Query Answering over Hyper-Relational Knowledge Graphs. AAAI 2023. [paper] [code]
-\item Haoran Luo, Haihong E, Ling Tan, Gengxian Zhou, Tianyu Yao, Kaiyang Wan. DHGE: Dual-View Hyper-Relational Knowledge Graph Embedding for Link Prediction and Entity Typing. AAAI 2023. [paper] [code]
-\item Gengxian Zhou, Haihong E, Zemin Kuang, Ling Tan, Xiaoxuan Xie, Jundi Li, Haoran Luo. Clinical decision support system for hypertension medication based on knowledge graph. Computer Methods and Programs in Biomedicine, 2022. [paper]
-\resumeSubHeadingListEnd
 
 %
 %--------PROGRAMMING SKILLS------------
 \section{Academic Services}
- \resumeSubHeadingListStart
-    \item \textbf{Conference Area Chair}: NeurIPS 2025, KDD 2025, KDD 2026
-    \item \textbf{Conference PC Member/Reviewer}: NeurIPS 2024, NeurIPS 2025, ICLR 2025, ICML 2025, ACL 2023, ACL 2024, ACL 2025, AAAI 2023, AAAI 2024, AAAI 2025, AAAI 2026, KDD 2025, WWW 2025, ACM MM 2025, EMNLP 2022, EMNLP 2023, EMNLP 2024, EMNLP 2025, NAACL 2024, NAACL 2025, COLING 2025, CIKM 2024, AISTATS 2025, NLPCC 2024, NLPCC 2025, CCKS 2025, IEEE ICKG 2025
-    \item \textbf{Journal Reviewer}: IEEE Transactions on Knowledge and Data Engineering (IEEE TKDE), IEEE Transactions on Dependable and Secure Computing (IEEE TDSC), Information Processing \& Management (IPM), Pattern Recognition (PR), Knowledge-Based Systems (KBS), Neurocomputing, Geo-spatial Information Science (TGSI)
- \resumeSubHeadingListEnd
+\begin{itemize}[itemsep=0mm, topsep=2mm, leftmargin=*]
+##SERVICES_STR##
+\end{itemize}
 
 
 % \section{Honors and Awards}
