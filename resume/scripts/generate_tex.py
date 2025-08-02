@@ -15,5 +15,5 @@ with open("resume/template/resume_template.tex", "r") as f:
 
 # resume_template = resume_template.replace("##PROJECTS##", s)
 
-with open("resume/HaoranLuo_CV.tex", "w") as f:
+with open("resume/HaoranLuo.CV.tex", "w") as f:
     f.write(resume_template)

@@ -29,13 +29,13 @@ jobs:
         run: python3 resume/scripts/generate_tex.py
 
       - name: Compile LaTeX resume
-        run: pdflatex resume/HaoranLuo_CV.tex
+        run: pdflatex resume/HaoranLuo.CV.tex
 
       - name: Commit updated PDF
         run: |
           git config user.name github-actions
           git config user.email actions@github.com
-          git add -f HaoranLuo_CV.pdf
-          git commit -m "update HaoranLuo_CV.pdf"
+          git add -f HaoranLuo.CV.pdf
+          git commit -m "update HaoranLuo.CV.pdf"
           git push
         continue-on-error: true
